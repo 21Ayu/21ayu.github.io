@@ -1,428 +1,701 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ayush's Portfolio</title>
+    <title>Ayush Kaurav - Associate Product Manager</title>
+    <meta name="description" content="Associate Product Manager specializing in AI-powered solutions, product strategy, and data-driven decision making. Currently at PLEM (BharatPe CXOs venture).">
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
-  </head>
-  <body>
+</head>
+<body>
     <nav id="desktop-nav">
-      <div class="logo">Ayush kaurav</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Tools</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="certificate.html">Certifications</a></li>
-          <li><a href="#contact">Contact</a></li>
-
-        </ul>
-      </div>
+        <div class="logo">Ayush Kaurav</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#product-work">Case Studies</a></li>
+                <li><a href="#writing">Writing</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">Ayush kaurav</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
+        <div class="logo">Ayush Kaurav</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#product-work" onclick="toggleMenu()">Case Studies</a></li>
+                <li><a href="#writing" onclick="toggleMenu()">Writing</a></li>
+                <li><a href="#testimonials" onclick="toggleMenu()">Testimonials</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
         </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Tools</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="certifications.html" onclick="toggleMenu()">Certifications</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-
-        </div>
-      </div>
     </nav>
+
+    <!-- Hero Section -->
     <section id="profile">
-      <div class="section__pic-container">
-        <img src="photo_2024-10-13_12-03-16-WWCGgYowF-transformed 3.jpeg" alt="Ayush kaurav profile picture" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Ayush Kaurav</h1>
-        <p class="section__text__p2">Business Analyst/Data Analyst</p>
-
-        <!-- <div class="btn-container"> -->
-          <!-- <button -->
-            <!-- class="btn btn-color-2"
-            onclick="location.href='./#contact'" -->
-          <!-- > -->
-            <!-- Download CV -->
-          <!-- </button> -->
-          <!-- <button class="btn btn-color-1" onclick="location.href='./#contact'"> -->
-            <!-- Contact Info -->
-          <!-- </button> -->
-        <!-- </div> -->
-        <div id="socials-container">
-          <img
-            src="linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://www.linkedin.com/in/ayush-kaurav/'"
-          />
-          <img
-            src="github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/21Ayu'"
-          />
-        </div>
-      </div>
-    </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
         <div class="section__pic-container">
-          <img
-            src="\photo_2024-10-13_12-55-15.jpg"
-            alt="Profile picture"
-            class="about-pic"
-          />
+            <img src="photo_2024-10-13_12-03-16-WWCGgYowF-transformed 3.jpeg" alt="Ayush Kaurav profile picture" />
         </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="images\experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>Business Analyst @ PLEM(Moringa innovation Private limited) <br />Driving Business with Data</p>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Ayush Kaurav</h1>
+            <p class="section__text__p2">Associate Product Manager</p>
+            <p class="tagline">Building AI-powered products that drive efficiency and growth</p>
+            <div class="currently-section">
+                <p class="currently-label">Currently</p>
+                <div class="currently-items">
+                    <span>🏗️ Building next-gen loyalty products at PLEM</span>
+                    <span>🎯 Shipping AI-powered features at scale</span>
+                    <span>🗣️ Open to APM/PM roles at Series A-C startups</span>
+                </div>
             </div>
-            <div class="details-container">
-              <img
-                src="education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>Bachelor of Engineering<br /></p>
-              <p>UPSC Preparation(Interview Appeared)</p>
+            <div class="cta-container">
+                <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                <a href="#product-work" class="btn btn-secondary">View Case Studies</a>
+                <a href="/Ayush_Kaurav_Associate_Product_Manager_Resume.pdf" class="btn btn-outline" download>📄 Download Resume</a>
             </div>
-          </div>
-          <div class="text-container">
-            <p>Pursuing 'Ikigai' &#10024 | Business Analyst ! Data Analyst</p>
-            <br>
-            <p>
-              I'm a passionate and detail-oriented <strong>Data & Business Analyst</strong> with hands-on experience in the fintech industry. 
-              Over the past 6 months, I’ve worked on real-world problems—conducting market research, building interactive dashboards, and analyzing key performance metrics to support data-driven decision-making.
-            </p>
-          
-            <p>
-              My work spans across <strong>market analysis</strong>, <strong>KPI tracking</strong> (including DAU, MAU, STLM,MTD), and <strong>funnel analysis</strong to improve user conversion and engagement.
-              I specialize in turning raw data into actionable insights that support business strategy, product optimization, and customer engagement.
-            </p>
-          
-            <p>
-              I’m highly motivated by growth — both professional and financial — and thrive in environments that challenge me to continuously learn, solve problems, and make measurable impact. 
-              I'm looking to build a career where data meets business strategy and every insight tells a story.
-            </p>
-          
-
-          </div>
+            <div id="socials-container">
+                <img
+                    src="linkedin.png"
+                    alt="LinkedIn profile"
+                    class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/ayush-kaurav/'"
+                />
+                <img
+                    src="github.png"
+                    alt="Github profile"
+                    class="icon"
+                    onclick="location.href='https://github.com/21Ayu'"
+                />
+            </div>
         </div>
-      </div>
-
-      <img
-        src="arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
     </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img
+                    src="photo_2024-10-13_12-55-15.jpg"
+                    alt="Profile picture"
+                    class="about-pic"
+                />
+            </div>
+            <div class="about-details-container">
+                <div class="about-text">
+                    <h2 class="about-heading">Analytical & Innovation-Driven Product Manager</h2>
+
+                    <div class="pm-journey">
+                        <h3 class="journey-title">My Product Management Journey</h3>
+                        <p class="about-description">
+                            I came to product management from an unconventional path. With a background in
+                            <strong>Civil Engineering</strong> and experience appearing for the <strong>UPSC interview</strong>,
+                            I developed systems thinking and stakeholder management skills before I even knew
+                            what product management was. Those experiences taught me to think in frameworks,
+                            navigate complex systems, and communicate across diverse stakeholders—skills that
+                            are foundational to great product work.
+                        </p>
+                        <p class="about-description">
+                            The transition to PM happened when I realized my passion lay not in building
+                            infrastructure, but in building <strong>products that solve real problems at scale</strong>.
+                            I taught myself data science, won a hackathon, and dove deep into the world of
+                            product development. That curiosity-driven learning continues to define my approach today.
+                        </p>
+                    </div>
+
+                    <div class="philosophy-card">
+                        <h3 class="philosophy-title">💡 My Product Philosophy</h3>
+                        <blockquote class="philosophy-quote">
+                            "Start with the problem, validate with data, iterate with users, and measure
+                            impact relentlessly. Great products emerge from the intersection of user empathy,
+                            technical feasibility, and business viability. My role as a PM is to be the voice
+                            of the user while keeping engineering excited and business stakeholders confident."
+                        </blockquote>
+                    </div>
+
+                    <p class="about-description">
+                        Currently at <strong>PLEM</strong> (founded by BharatPe CXOs), I work on next-gen
+                        brand rewards and loyalty ecosystems. I coordinate between founders, engineering, and
+                        design teams to ship AI-powered features that drive real business outcomes. Whether it's
+                        reducing turnaround time from days to hours or improving conversion rates by 15%, I focus
+                        on delivering measurable impact through thoughtful product strategy and execution.
+                    </p>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <div class="highlight-icon">🚀</div>
+                        <h3>Product Strategy</h3>
+                        <p>End-to-end ownership from ideation to launch</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">🤖</div>
+                        <h3>AI/Automation</h3>
+                        <p>Building intelligent systems that scale</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">📊</div>
+                        <h3>Data-Driven</h3>
+                        <p>Metrics-focused decision making</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img
+            src="arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#experience'"
+        />
+    </section>
+
+    <!-- Experience Section -->
     <section id="experience">
-      <p class="section__text__p1">Explore</p>
-      <h1 class="title">My Tools</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Data Analysis</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>MySQL</h3>
-                  <p>Advanced</p>
+        <p class="section__text__p1">My Journey</p>
+        <h1 class="title">Work Experience</h1>
+        <div class="experience-container">
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div>
+                        <h2 class="company-name">PLEM</h2>
+                        <p class="company-description">Founded by BharatPe CXOs - Next-gen Brand Rewards & Loyalty Ecosystem</p>
+                        <h3 class="role-title">Associate Product Manager</h3>
+                    </div>
+                    <div class="experience-duration">
+                        <p>Mar 2025 - Present</p>
+                        <p class="location">Gurugram, Haryana</p>
+                    </div>
                 </div>
-              </article>
-              <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Python / Pandas</h3>
-                  <p>Advanced</p>
+                <div class="experience-content">
+                    <div class="achievement">
+                        <div class="achievement-icon">🤝</div>
+                        <div class="achievement-text">
+                            <h4>Cross-Functional Leadership & Coordination</h4>
+                            <p>Coordinated product development across founders, engineering, and design teams,
+                            facilitating alignment and resolving conflicts through data-driven prioritization frameworks</p>
+                        </div>
+                    </div>
+                    <div class="achievement">
+                        <div class="achievement-icon">📋</div>
+                        <div class="achievement-text">
+                            <h4>Product Requirements & Documentation</h4>
+                            <p>Created comprehensive PRDs and designed feature specifications in Figma for dev teams,
+                            <strong>ensuring clear communication and reducing implementation ambiguity</strong></p>
+                        </div>
+                    </div>
+                    <div class="achievement">
+                        <div class="achievement-icon">⏱️</div>
+                        <div class="achievement-text">
+                            <h4>Project Management & Delivery</h4>
+                            <p>Managed product roadmap and sprint planning via ClickUp, ensuring timely delivery
+                            of features while maintaining quality standards and stakeholder expectations</p>
+                        </div>
+                    </div>
+                    <div class="achievement">
+                        <div class="achievement-icon">⚡</div>
+                        <div class="achievement-text">
+                            <h4>AI Automation System</h4>
+                            <p>Designed and deployed an AI automation system to list and update gift cards,
+                            <strong>reducing turnaround time from several days to hours</strong></p>
+                        </div>
+                    </div>
+                    <div class="achievement">
+                        <div class="achievement-icon">🎯</div>
+                        <div class="achievement-text">
+                            <h4>Loyalty Capture Feature (LLM-powered)</h4>
+                            <p>Conceptualized and delivered a Loyalty Capture feature powered by LLMs,
+                            <strong>a key highlight during the company fundraising round</strong></p>
+                        </div>
+                    </div>
+                    <div class="achievement">
+                        <div class="achievement-icon">📦</div>
+                        <div class="achievement-text">
+                            <h4>Shopify Integration</h4>
+                            <p>Collaborated with engineers and designers to build and launch a
+                            <strong>Shopify Loyalty & Rewards app</strong>, expanding merchant engagement</p>
+                        </div>
+                    </div>
+                    <div class="achievement">
+                        <div class="achievement-icon">📈</div>
+                        <div class="achievement-text">
+                            <h4>Data & Analytics Ownership</h4>
+                            <p>Developed data dashboards to track adoption and retention, enabling
+                            data-backed product decisions and <strong>improving conversion rates by 15%</strong></p>
+                        </div>
+                    </div>
                 </div>
-              </article>
-              <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Microsoft Power BI</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Microsoft Excel</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Matplotlib / Seaborn</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-
             </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Machine Learning - Deep Learning</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Pandas / NumPy</h3>
-                  <p>Advanced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Scikit-Learn</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>TensorFlow</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>PyTorch</h3>
-                  <p>Beginner</p>
-                </div>
-              </article>
-
-            </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Others</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Git / Git-Hub</h3>
-                  <p>Advanced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Streamlit / FastAPI</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>AWS</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-
-            </div>
-          </div>
         </div>
-      </div>
-      <img
-        src="arrow-right.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
     </section>
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="da.png"
-                alt="Data analysis"
-                class="project-img"
-              />
+
+    <!-- Impact Metrics Dashboard -->
+    <section id="impact-metrics" class="metrics-section">
+        <p class="section__text__p1">Measurable Impact</p>
+        <h1 class="title">Results That Matter</h1>
+        <div class="impact-metrics-container">
+            <div class="metric-card-large">
+                <div class="metric-icon">⚡</div>
+                <div class="metric-value">10x</div>
+                <div class="metric-label">Faster Processing</div>
+                <div class="metric-description">AI automation reduced gift card processing from days to hours</div>
             </div>
-            <h2 class="experience-sub-title project-title">Python</h2>
-            <div class="btn-container">
-                <img 
-                  src="arrow-right.png"
-                  alt="arrow-right" 
-                  class="next"
-                  onclick="location.href='da.html', target='_blank'">
+            <div class="metric-card-large">
+                <div class="metric-icon">📈</div>
+                <div class="metric-value">15%</div>
+                <div class="metric-label">Conversion Increase</div>
+                <div class="metric-description">Data-driven optimization improved merchant conversion rates</div>
             </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="ml.png"
-                alt="machine Learning"
-                class="project-img"
-              />
+            <div class="metric-card-large">
+                <div class="metric-icon">🚀</div>
+                <div class="metric-value">3</div>
+                <div class="metric-label">Products Shipped</div>
+                <div class="metric-description">0-to-1 features delivered from concept to production</div>
             </div>
-            <h2 class="experience-sub-title project-title"> MySQL</h2>
-            <div class="btn-container">
-              <img 
-                  src="arrow-right.png"
-                  alt="arrow-right" 
-                  class="next"
-                  onclick="location.href='ml.html', target='_blank'">
+            <div class="metric-card-large">
+                <div class="metric-icon">✓</div>
+                <div class="metric-value">100%</div>
+                <div class="metric-label">On-Time Delivery</div>
+                <div class="metric-description">Consistent sprint delivery through ClickUp project management</div>
             </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="dl.png"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Power Bi</h2>
-            <div class="btn-container">
-              <img 
-              src="arrow-right.png"
-              alt="arrow-right" 
-              class="next"
-              onclick="location.href='dl.html', target='_blank'">
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="llm.png"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">M.S. Excel</h2>
-            <div class="btn-container">
-              <img 
-              src="arrow-right.png"
-              alt="arrow-right" 
-              class="next"
-              onclick="location.href='others.html', target='_blank'">
-            </div>
-          </div>
         </div>
-      </div>
-      <img
-        src="arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
+        <img
+            src="arrow-right.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#product-work'"
+        />
     </section>
+
+    <!-- Product Work Section -->
+    <section id="product-work">
+        <p class="section__text__p1">Case Studies & Projects</p>
+        <h1 class="title">Product Work</h1>
+        <div class="product-work-container">
+            <div class="product-card featured">
+                <div class="product-badge">Featured</div>
+                <div class="product-content">
+                    <h3>AI-Powered Gift Card Automation</h3>
+                    <p class="product-type">B2B SaaS • Automation • AI/ML</p>
+                    <p class="product-description">
+                        Designed an end-to-end AI automation system that transformed manual gift card
+                        listing and updates from a multi-day process to hours, enabling faster
+                        go-to-market and improved operational efficiency.
+                    </p>
+                    <div class="product-metrics">
+                        <div class="metric">
+                            <span class="metric-value">10x</span>
+                            <span class="metric-label">Faster Processing</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">100%</span>
+                            <span class="metric-label">Automation Rate</span>
+                        </div>
+                    </div>
+                    <div class="product-tags">
+                        <span class="tag">Product Strategy</span>
+                        <span class="tag">AI/ML</span>
+                        <span class="tag">Automation</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-content">
+                    <h3>LLM-Powered Loyalty Capture</h3>
+                    <p class="product-type">B2B/B2C • AI Product • Growth</p>
+                    <p class="product-description">
+                        Conceptualized and shipped a loyalty capture feature using Large Language Models
+                        that became a key product highlight during fundraising, showcasing innovation
+                        in customer engagement.
+                    </p>
+                    <div class="product-metrics">
+                        <div class="metric">
+                            <span class="metric-value">Key</span>
+                            <span class="metric-label">Fundraising Asset</span>
+                        </div>
+                    </div>
+                    <div class="product-tags">
+                        <span class="tag">LLM Integration</span>
+                        <span class="tag">User Engagement</span>
+                        <span class="tag">Growth</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-content">
+                    <h3>Shopify Loyalty & Rewards App</h3>
+                    <p class="product-type">B2B • Platform Integration • Merchant Tools</p>
+                    <p class="product-description">
+                        Led cross-functional collaboration with engineering and design teams to build
+                        and launch a Shopify app that expands merchant engagement through loyalty and
+                        rewards functionality.
+                    </p>
+                    <div class="product-metrics">
+                        <div class="metric">
+                            <span class="metric-value">15%</span>
+                            <span class="metric-label">Conversion Lift</span>
+                        </div>
+                    </div>
+                    <div class="product-tags">
+                        <span class="tag">Platform Integration</span>
+                        <span class="tag">B2B</span>
+                        <span class="tag">Analytics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img
+            src="arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#writing'"
+        />
+    </section>
+
+    <!-- Writing & Thought Leadership Section -->
+    <section id="writing">
+        <p class="section__text__p1">Insights & Learning</p>
+        <h1 class="title">Product Thinking & Writing</h1>
+        <p class="writing-subtitle">
+            Sharing lessons learned from building products, managing stakeholders, and shipping features at scale.
+        </p>
+        <div class="writing-container">
+            <article class="writing-card">
+                <div class="writing-tag">Product Strategy</div>
+                <h3>From Days to Hours: How AI Automation Transformed Our Workflow</h3>
+                <p class="writing-excerpt">
+                    A deep dive into designing and deploying an AI automation system that reduced gift card
+                    processing time by 10x. Lessons on scoping, stakeholder buy-in, and measuring impact.
+                </p>
+                <div class="writing-meta">
+                    <span>📖 8 min read</span>
+                    <span>•</span>
+                    <span>Product Management, AI, Automation</span>
+                </div>
+                <div class="writing-note">
+                    <strong>Coming Soon:</strong> Detailed case study with PRD excerpts, Figma designs, and impact metrics
+                </div>
+            </article>
+
+            <article class="writing-card">
+                <div class="writing-tag">Cross-Functional Leadership</div>
+                <h3>Coordinating Founders, Engineers, and Designers: A PM's Survival Guide</h3>
+                <p class="writing-excerpt">
+                    How I navigated conflicting priorities, resolved technical debates, and kept everyone aligned
+                    while shipping three major features in six months.
+                </p>
+                <div class="writing-meta">
+                    <span>📖 6 min read</span>
+                    <span>•</span>
+                    <span>Stakeholder Management, Communication</span>
+                </div>
+                <div class="writing-note">
+                    <strong>Coming Soon:</strong> Real examples of PRDs, Figma workflows, and ClickUp project structures
+                </div>
+            </article>
+
+            <article class="writing-card">
+                <div class="writing-tag">AI Products</div>
+                <h3>Building LLM-Powered Features That Actually Ship</h3>
+                <p class="writing-excerpt">
+                    What we learned conceptualizing and delivering a Loyalty Capture feature using LLMs—from
+                    prompt engineering to production deployment and fundraising storytelling.
+                </p>
+                <div class="writing-meta">
+                    <span>📖 7 min read</span>
+                    <span>•</span>
+                    <span>AI/ML, Product Development, Fundraising</span>
+                </div>
+                <div class="writing-note">
+                    <strong>Coming Soon:</strong> Technical architecture, product decisions, and business impact analysis
+                </div>
+            </article>
+
+            <article class="writing-card">
+                <div class="writing-tag">Prioritization</div>
+                <h3>The Prioritization Framework That Ended Our Feature Debates</h3>
+                <p class="writing-excerpt">
+                    How I introduced a data-driven prioritization system that helped resolve conflicts between
+                    founders' vision and engineering constraints while keeping users at the center.
+                </p>
+                <div class="writing-meta">
+                    <span>📖 5 min read</span>
+                    <span>•</span>
+                    <span>Product Strategy, Decision-Making</span>
+                </div>
+                <div class="writing-note">
+                    <strong>Coming Soon:</strong> Framework templates and real prioritization scorecards
+                </div>
+            </article>
+        </div>
+        <div class="writing-cta">
+            <p>Want to discuss product strategy, AI features, or PM best practices?</p>
+            <a href="#contact" class="btn btn-primary">Let's Connect</a>
+        </div>
+        <img
+            src="arrow-right.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#testimonials'"
+        />
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <p class="section__text__p1">What People Say</p>
+        <h1 class="title">Testimonials & Recommendations</h1>
+        <div class="testimonials-container">
+            <div class="testimonial-card">
+                <div class="quote-icon">"</div>
+                <p class="testimonial-quote">
+                    Ayush's ability to coordinate between founders and the engineering team was instrumental in
+                    shipping our fundraising demo on time. His clear PRDs and Figma designs made implementation
+                    seamless, and his data-driven approach to prioritization helped us make tough trade-off decisions
+                    confidently.
+                </p>
+                <div class="testimonial-author">
+                    <div class="author-image-placeholder">👤</div>
+                    <div class="author-info">
+                        <strong>Co-Founder, PLEM</strong>
+                        <span>Moringa Innovation Private Limited</span>
+                    </div>
+                </div>
+                <div class="testimonial-note">
+                    <em>Note: Placeholder testimonial - update with actual recommendation</em>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="quote-icon">"</div>
+                <p class="testimonial-quote">
+                    Working with Ayush on the AI automation system was a great experience. His PRDs were exceptionally
+                    clear and reduced implementation ambiguity significantly. He understood technical constraints and
+                    worked collaboratively to find solutions that balanced user needs with engineering feasibility.
+                </p>
+                <div class="testimonial-author">
+                    <div class="author-image-placeholder">👤</div>
+                    <div class="author-info">
+                        <strong>Engineering Lead, PLEM</strong>
+                        <span>Product Engineering Team</span>
+                    </div>
+                </div>
+                <div class="testimonial-note">
+                    <em>Note: Placeholder testimonial - update with actual recommendation</em>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="quote-icon">"</div>
+                <p class="testimonial-quote">
+                    Ayush's data-driven approach to product decisions stands out. He doesn't just collect metrics—he
+                    translates them into actionable insights. The 15% conversion improvement we achieved was a direct
+                    result of his systematic experimentation and optimization framework.
+                </p>
+                <div class="testimonial-author">
+                    <div class="author-image-placeholder">👤</div>
+                    <div class="author-info">
+                        <strong>Data Analytics Team Member</strong>
+                        <span>PLEM Analytics</span>
+                    </div>
+                </div>
+                <div class="testimonial-note">
+                    <em>Note: Placeholder testimonial - update with actual recommendation</em>
+                </div>
+            </div>
+        </div>
+        <div class="testimonials-cta">
+            <p>💡 <strong>Tip:</strong> Replace these placeholder testimonials with actual recommendations from
+            founders, engineers, and colleagues. LinkedIn recommendations work great!</p>
+        </div>
+        <img
+            src="arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#skills'"
+        />
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <p class="section__text__p1">My Toolkit</p>
+        <h1 class="title">Skills & Competencies</h1>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h2 class="skill-category-title">Product Management</h2>
+                <div class="skill-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon">🎯</div>
+                        <h3>Product Strategy & Roadmapping</h3>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">📋</div>
+                        <h3>PRD Writing & Documentation</h3>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">🎨</div>
+                        <h3>Feature Design (Figma)</h3>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">⚖️</div>
+                        <h3>Prioritization & Conflict Resolution</h3>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">🧪</div>
+                        <h3>Experimentation & A/B Testing</h3>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">🤝</div>
+                        <h3>Stakeholder Collaboration</h3>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">⚡</div>
+                        <h3>Agile & Cross-Functional Delivery</h3>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">📅</div>
+                        <h3>Project Management (ClickUp)</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h2 class="skill-category-title">Technical Skills</h2>
+                <div class="skill-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon">🤖</div>
+                        <h3>AI/Automation Design</h3>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">📊</div>
+                        <h3>Data Analytics & Visualization</h3>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">🔗</div>
+                        <h3>API Integration & LLMs</h3>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">💾</div>
+                        <h3>Database Management (SQL)</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h2 class="skill-category-title">Tools & Platforms</h2>
+                <div class="tools-grid">
+                    <div class="tool-item">Figma</div>
+                    <div class="tool-item">ClickUp</div>
+                    <div class="tool-item">Metabase</div>
+                    <div class="tool-item">MySQL</div>
+                    <div class="tool-item">Shopify</div>
+                    <div class="tool-item">LLM APIs</div>
+                    <div class="tool-item">Python</div>
+                    <div class="tool-item">Power BI</div>
+                    <div class="tool-item">Google Sheets</div>
+                    <div class="tool-item">Pandas</div>
+                    <div class="tool-item">Matplotlib</div>
+                    <div class="tool-item">Seaborn</div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h2 class="skill-category-title">Achievements & Certifications</h2>
+                <div class="achievements-grid">
+                    <div class="achievement-item">
+                        <div class="achievement-year">2024</div>
+                        <div class="achievement-details">
+                            <h3>Data Science Hackathon Winner</h3>
+                            <p>May 2024</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <div class="achievement-year">2024</div>
+                        <div class="achievement-details">
+                            <h3>Data Science Certification</h3>
+                            <p>UpGrad - April 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img
+            src="arrow-right.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#contact'"
+        />
+    </section>
+
+    <!-- Contact Section -->
     <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:akaurav21@gmail.com">akaurav21@gmail.com</a></p>
+        <p class="section__text__p1">Let's Connect</p>
+        <h1 class="title">Contact Me</h1>
+        <p class="contact-subtitle">
+            Open to product management opportunities, collaborations, and conversations about
+            building impactful products.
+        </p>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img
+                    src="email.png"
+                    alt="Email icon"
+                    class="icon contact-icon email-icon"
+                />
+                <p><a href="mailto:akaurav21@gmail.com">akaurav21@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img
+                    src="linkedin.png"
+                    alt="LinkedIn icon"
+                    class="icon contact-icon"
+                />
+                <p><a href="https://www.linkedin.com/in/ayush-kaurav">LinkedIn</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img
+                    src="github.png"
+                    alt="GitHub icon"
+                    class="icon contact-icon"
+                />
+                <p><a href="https://github.com/21Ayu">GitHub</a></p>
+            </div>
         </div>
-        <div class="contact-info-container">
-          <img
-            src="linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="www.linkedin.com/in/ayush-kaurav">LinkedIn</a></p>
+        <div class="contact-location">
+            <p>📍 Gurugram, Haryana | +91 7999747590</p>
         </div>
-      </div>
     </section>
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Tools</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="certifications.html">Certifications</a></li>
-            <!-- <li><a href="#contact">Contact</a></li> -->
 
-          </ul>
-        </div>
-      </nav>
-      <p>&#10024 Crafted with curiosity &#128640 &#169; 2025 Ayush Kaurav</p>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#product-work">Case Studies</a></li>
+                    <li><a href="#writing">Writing</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Built with focus on impact and user experience • © 2025 Ayush Kaurav</p>
     </footer>
     <script src="script.js"></script>
-  </body>
+</body>
 </html>

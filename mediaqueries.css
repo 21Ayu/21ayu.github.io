@@ -1,0 +1,341 @@
+/* TABLET */
+@media screen and (max-width: 1200px) {
+  /* Navigation */
+  #desktop-nav {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: flex;
+    padding: 1rem 5%;
+  }
+
+  /* Sections */
+  section {
+    padding: 4rem 5%;
+  }
+
+  nav {
+    padding: 1rem 5%;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  /* Profile */
+  #profile {
+    flex-direction: column;
+    gap: 3rem;
+    padding-top: 6rem;
+    min-height: fit-content;
+  }
+
+  .section__pic-container {
+    width: 300px;
+    height: 300px;
+  }
+
+  .section__text__p2 {
+    font-size: 1.75rem;
+  }
+
+  .tagline {
+    font-size: 1.1rem;
+  }
+
+  /* About */
+  .section-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .about-highlights {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Experience */
+  .experience-header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .experience-duration {
+    text-align: left;
+  }
+
+  /* Product Work */
+  .product-card.featured {
+    grid-column: span 1;
+  }
+
+  .product-work-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  /* Skills */
+  .about-highlights,
+  .skill-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Arrow */
+  .arrow {
+    display: none;
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+  /* Sections */
+  section {
+    padding: 3rem 5%;
+  }
+
+  .title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .section__text__p1 {
+    font-size: 0.9rem;
+  }
+
+  /* Profile */
+  #profile {
+    padding-top: 5rem;
+  }
+
+  .section__pic-container {
+    width: 250px;
+    height: 250px;
+  }
+
+  .section__text__p2 {
+    font-size: 1.5rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+
+  .cta-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 0.875rem 1.5rem;
+  }
+
+  /* About */
+  .about-heading {
+    font-size: 1.5rem;
+  }
+
+  .about-description {
+    font-size: 1rem;
+  }
+
+  .about-highlights {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .highlight-card {
+    padding: 1rem;
+  }
+
+  .highlight-icon {
+    font-size: 2rem;
+  }
+
+  /* Experience */
+  .experience-card {
+    padding: 1.5rem;
+  }
+
+  .company-name {
+    font-size: 1.5rem;
+  }
+
+  .company-description {
+    font-size: 0.95rem;
+  }
+
+  .role-title {
+    font-size: 1.1rem;
+  }
+
+  .achievement {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .achievement-icon {
+    align-self: flex-start;
+  }
+
+  .achievement-text h4 {
+    font-size: 1rem;
+  }
+
+  .achievement-text p {
+    font-size: 0.95rem;
+  }
+
+  /* Product Work */
+  .product-work-container {
+    grid-template-columns: 1fr;
+  }
+
+  .product-card {
+    padding: 1.5rem;
+  }
+
+  .product-content h3 {
+    font-size: 1.25rem;
+  }
+
+  .product-description {
+    font-size: 0.95rem;
+  }
+
+  .product-metrics {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .metric-value {
+    font-size: 1.5rem;
+  }
+
+  /* Skills */
+  .skill-category {
+    padding: 1.5rem;
+  }
+
+  .skill-category-title {
+    font-size: 1.25rem;
+  }
+
+  .skill-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-item {
+    padding: 1rem;
+  }
+
+  .skill-item h3 {
+    font-size: 1rem;
+  }
+
+  .tools-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .achievements-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .achievement-item {
+    padding: 1.25rem;
+  }
+
+  .achievement-year {
+    font-size: 1.75rem;
+    min-width: 60px;
+  }
+
+  /* Contact */
+  .contact-subtitle {
+    font-size: 1rem;
+  }
+
+  .contact-info-upper-container {
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+
+  .contact-info-container {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Footer */
+  footer {
+    padding: 2rem 5%;
+  }
+
+  footer .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  footer .nav-links a {
+    font-size: 0.95rem;
+  }
+}
+
+/* SMALL MOBILE */
+@media screen and (max-width: 480px) {
+  .section__pic-container {
+    width: 200px;
+    height: 200px;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+
+  .tagline {
+    font-size: 0.95rem;
+  }
+
+  .logo {
+    font-size: 1.25rem;
+  }
+
+  .tools-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tool-item {
+    padding: 0.875rem;
+  }
+
+  .product-badge {
+    top: 0.75rem;
+    right: 0.75rem;
+    padding: 0.3rem 0.75rem;
+    font-size: 0.75rem;
+  }
+
+  /* New Sections Responsive */
+  .currently-items {
+    font-size: 0.85rem;
+  }
+
+  .philosophy-quote {
+    font-size: 1rem;
+  }
+
+  .impact-metrics-container {
+    grid-template-columns: 1fr;
+  }
+
+  .writing-container {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials-container {
+    grid-template-columns: 1fr;
+  }
+}
